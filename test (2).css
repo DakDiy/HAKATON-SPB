@@ -1,0 +1,57 @@
+body {
+    font-family: Montserrat, sans-serif;
+    padding: 1px;
+    background-color: #FFFFFC;
+    color: #1D1D1D;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #A44AE4;
+}
+
+.chat-container {
+    max-width: 600px;
+    /* Лучше задать фиксированную ширину */
+    margin: 20px auto;
+    padding: 20px;
+    background: orange;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(199, 14, 14, 0.1);
+}
+
+#colorFilter,
+#minValue,
+#maxValue,
+#filterButton {
+    margin: 16px 8px;
+    padding: 8px;
+    border: 2px solid #CBD5E1;
+    border-radius: 8px;
+}
+
+#filterButton {
+    background-color: #EC8518;
+    color: white;
+    cursor: pointer;
+    margin-left: 364px;
+}
+
+#filterButton:hover {
+    background-color: #e85217;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #CBD5E1;
+    border-radius: 8px;
+}
+
+
